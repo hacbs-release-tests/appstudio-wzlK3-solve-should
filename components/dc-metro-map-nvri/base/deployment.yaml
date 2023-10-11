@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-nvri
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/hacbs-release-tests/release-service-e2e-tenant/appstudio/dc-metro-map-nvri@sha256:ed0e616dc35adc1a523ff34f6538f0b4ea45e749a9dd6178673e53b725532025
         name: my-nodejs
         ports:
         - containerPort: 3001
